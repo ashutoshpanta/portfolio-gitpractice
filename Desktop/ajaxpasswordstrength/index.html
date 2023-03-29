@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'><link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<section>
+		<div class="form-group">
+			<label for="username">Enter username</label>
+			<input type="text" class="form-control" name="username" id="username">
+		</div>
+		<div id="username-validator-text"></div>
+		<div class="form-group">
+			<label for="password">Enter password</label>
+			<input type="password" class="form-control" name="password" id="password">
+		</div>
+		<div class="progress password-progress">
+			<div id="password-strength-meter" class="progress-bar" role="progressbar" style="width: 0;"></div>
+		</div>
+		<div id="password-strength-text"></div>
+		<br>
+		<p>Forgot Password?</p>
+	</section>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/zxcvbn/4.2.0/zxcvbn.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

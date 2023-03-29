@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Signika:400,700);
+
+body {
+    padding: 2.5em 2em 0em;
+    background: #556472;
+		font-size: 1.5em;
+		color: rgb(255, 255, 255);
+		font-family: Signika, -apple-system, sans-serif;
+}
+
+section {
+	margin: 0em auto 0;
+	width: 100%;
+	max-width: 800px;
+}
+
+input {
+    display: block;
+    margin: .5em auto 0em;
+    padding: 0.5em 1em 0.5em 0.7em;
+    width: 100%;
+    border: none;
+    background: rgba(0,0,0,0.05);
+    color: rgba(0,0,0,0.8);
+    font-size: 2em;
+    line-height: 0;
+		transition: all .35s linear;
+}
+
+.form-control {
+	height: 50px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+input:hover, input:focus {
+	outline: 0;
+	transition: all .35s linear;
+}
+
+.feedback-warning,
+.feedback-suggestions {
+	display: block;
+}
+
+.form-group {
+  margin-bottom: 0;
+}
+
+#password-strength-meter {
+		transition: all 1s linear;
+}
+
+.progress {
+    height: 10px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border: 1px solid #ccc;
+    border-top: 0;
+    box-shadow: none;
+    background: white;
+}
+
+p {
+  color: #ffffff;
+  text-align: center;
+}
